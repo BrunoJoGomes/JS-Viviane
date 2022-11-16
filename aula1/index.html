@@ -7,29 +7,31 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- Eventos javaScript -->
+
     <button onclick="clickMe()">Clique-me</button>
 
 
     <p>
         Focus
-        <input type="text" name="focus-text">
+        <input type="text" name="focus-text" onfocus="focusOnMe()">
     </p>
 
     <p>
         Blur
-        <input type="text" name="blur-text">
+        <input type="text" name="blur-text" onblur="blurMe()">
     </p>
 
-    <p>
+    <p onchange="changeMe()">
         Change 
         <input type="text" name="change-text">
     </p>
 
-    <p>Passe o mouse sobre mim</p>
+    <p onmouseenter="overMe()">Passe o mouse sobre mim</p>
 
 
 
-    <!-- O javascript vai ao final do arquvio pois os efeitos são carregados por ultimo -->
+    <!-- O javascript vai ao final do arquivo pois os efeitos são carregados por ultimo -->
     <script src="script.js"></script>
 </body>
 </html>
