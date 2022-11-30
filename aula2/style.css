@@ -1,0 +1,37 @@
+.calc{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: lightblue;
+    border: outset 5px;
+    width: 300px;
+    height: 400px;
+    padding: 10px;
+}
+
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.classe1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+    width: 200px;
+    height: 250px;
+}
+
+.classe2{
+    color: chartreuse;
+}
+
+.classe3{
+    background-color: dodgerblue;
+    border: double 5px yellow;
+    border-radius: 50px;
+}

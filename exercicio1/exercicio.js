@@ -6,6 +6,6 @@ function passeMouse(){
     document.querySelector("#divTeste").innerText = "Passou o mouse!"
 }
 
-function tireMouse(){
+function tireOmouse(){
     document.querySelector("#divTeste").innerText = "Tirou o mouse!"
 }

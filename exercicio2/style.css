@@ -1,0 +1,22 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.botoes{
+    margin: 20px;
+    padding: 10px;
+    border: dashed 2px black;
+    border-radius: 20px;
+}
+
+
+.class1{
+    background-color: lightblue;
+}
+
+.class2{
+    color: red;
+}
