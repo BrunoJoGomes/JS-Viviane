@@ -1,0 +1,35 @@
+body{
+    background-color: lightblue;
+}
+
+p{
+    font-size: 30px;
+}
+
+h1{
+    margin: 10px 5px 10px 15px;
+}
+
+#lista{
+    border: 3px black dotted;
+    padding: 5px 5px 5px 30px;
+}
+
+.container{
+    background-color: green;
+    display: flex;
+    justify-content: center;
+}
+
+.container div{
+    background-color: aqua;
+    padding: 10px;
+    margin: 10px;
+    width: 15px;
+    height: 15px;
+}
+
+#imagem{
+    display: flex;
+    justify-content: center;
+}
