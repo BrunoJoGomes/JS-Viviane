@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
 body{
     background-color: #0F0C29;
     display: flex;
     justify-content: center;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -10,17 +13,17 @@ body{
     background-color: white;
     border-radius: 10px;
     width: 700px;
-    height: 600px;
+    height: 570px;
     margin-top: 20px;
+    padding: 20px;
 }
 
-.imagem{
-    padding: 30px 20px 30px 20px;
-}
 
-img{
+.imagem img{
     width: 300px;
-    border-radius: 10px;
+    height: 560px;
+    padding: 10px 15px 10px 10px;
+    border-radius: 30px;
 }
 
 .emblemas{
@@ -44,20 +47,28 @@ img{
     align-items: center;
 }
 
-.premio{
-    width: 50px;
-    height: 50px;
+.gol img{
+    width: 35px;
+    margin-right: 10px;
 }
 
-.goals{
-    width: 50px;
-    height: 50px;
+.premio img{
+    width: 35px;
+    margin-right: 5px;
 }
 
 .premios{
     display: flex;
+    align-items: center;
+    margin-bottom: 10px;
 }
 
 .gols{
     display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.bio p{
+    text-align: justify;
 }
